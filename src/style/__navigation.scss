@@ -1,0 +1,18 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  div {
+    @include paddingSmall;
+    a {
+      padding: 5px;
+    }
+  }
+
+  .sign-out {
+    display: flex;
+    justify-content: space-around;
+  }
+}

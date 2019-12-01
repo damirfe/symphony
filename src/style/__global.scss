@@ -1,0 +1,25 @@
+* {
+  @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin paddingSmall {
+  padding: 15px;
+}
+
+@mixin standardborder {
+  border: 1px solid black;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  @include paddingSmall;
+}

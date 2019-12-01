@@ -1,0 +1,27 @@
+.review-container {
+  display: flex;
+  @include paddingSmall;
+  @include standardborder;
+  .review-header {
+    display: flex;
+    align-items: center;
+    h4 {
+      display: inline-flex;
+      margin-right: 15px;
+    }
+  }
+  .review-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    svg {
+      @include standardborder;
+      border-radius: 50%;
+      margin: 5px;
+      padding: 5px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
